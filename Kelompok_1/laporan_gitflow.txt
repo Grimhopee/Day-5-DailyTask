@@ -1,0 +1,54 @@
+Kelompok Terakhir List Anggota { 1.Adrian (Grimhopee) [Leader] 2.Rayhan (DsuRhan) 3.Yamin (naufalyam636-sketch) } Pembagian Tugas{ Grimhopee{ index.html } DsuRhan{ README.md } naufalyam636-sketch{ belajar.css } }
+
+belajar.css = fitur-yamin
+index.html  = fitur_adr
+readme.md   = fitur-rayhan
+
+ -1 : feat(Yamin): tambahkan bagian css html
+
+Menambahkan input Navbar pada .html
+
+Closes #8f01077
+
+-2 :  feat(DsuRhan): tambahkan bagian informasi kelompok
+
+Menambahkan input list anggota,nickname git dan pembagian tugas
+Closes #f675372
+
+USER@LAPTOP-JL3NDDCC MINGW64 ~/Programming/GIT/tugas5 (main)
+$ git log --oneline --graph --all
+* 02dcbaa (HEAD -> main, origin/main, origin/HEAD) Changes on the Navbar
+* 36506ec Add files via upload
+* cece4d8 Update index.html
+* 6a24ad5 Update index.html
+* da5dfd2 Update index.html
+*   931c4e7 Merge pull request #5 from Grimhopee/fitur_adr
+|\
+| * a297d69 (origin/fitur_adr, fitur_adr) jam10
+| *   4b6a7f1 Merge branch 'main' of github.com:Grimhopee/Day-5-DailyTask      
+| |\
+| |/
+|/|
+
+$ git branch -r
+  origin/HEAD -> origin/main
+  origin/fitur-rayhan
+  origin/fitur-yamin
+  origin/fitur_adr
+  origin/main
+
+$ git show
+commit 02dcbaa532c697e00b3f77674b16d5b9781a5d06 (HEAD -> main, origin/main, origin/HEAD)
+Author: Grimhopee <inbsmurf@gmail.com>
+Date:   Thu Aug 21 23:19:02 2025 +0700
+
+    Changes on the Navbar
+
+diff --git a/index.html b/index.html
+index 943ee7d..9f10da4 100644
+--- a/index.html
++++ b/index.html
+@@ -8,23 +8,23 @@
+
+LINK PULL REQUEST : 
+https://github.com/Grimhopee/Day-5-DailyTask/pulls?q=is%3Apr+is%3Aclosed
